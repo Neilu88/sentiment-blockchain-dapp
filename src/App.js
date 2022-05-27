@@ -112,10 +112,7 @@ const App = () => {
         hasFooter={false}
         title={modalToken}
       >
-        <div>
-          <span style={{ color: "white" }}>{`Price: `}</span>
-          {modalPrice}$
-        </div>
+        <div>{modalPrice}$</div>
 
         <div>
           <span style={{ color: "white" }}>{`About`}</span>
