@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.7; // Solidity Version
 
-contract marketsentiment { // Define Contract
+contract MarketSentiment { // Define Contract
 
   address public owner; // Address of Owner
   string[] public tickersArray; // Array of Tickers/Cryptocurrencies
